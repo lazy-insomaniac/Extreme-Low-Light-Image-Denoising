@@ -3,6 +3,7 @@
 The aim of the project was to denoise images taken in extreme low light conditions. We often find ourselves with these low light images due to technical and environmental constraints. This results in loss of information. While there are many techniques to denoise such images, most of them are computationally expensive. Therefore, we can use Deep neural networks to perform the task. 
 # EXAMPLE 
 ![image](https://github.com/lazy-insomaniac/Extreme-Low-Light-Image-Denoising/assets/114395022/e5badc61-90ca-4bba-9112-ef6c09625917)
+LOW                         HIGH                  ENHANCED 
 # Description 📝
 Zero Reference Deep Curve Estimation and Learning to see in the Dark Papers are implemented through the use of DCE Net and UNet. A modified version of Zero DCE is implemented called Partial-DCE.
 The main file for my code are in there respective folders you just have to run the file with your images in 'test/low/' and you will get output images in 'test
@@ -22,17 +23,11 @@ This study primarily focuses on implementing UNet and an  improved version of Ze
       data, this is done by set of non-reference loss functions. Since we have access to a dataset that includes both low-light input images and  their corresponding high-quality reference images, we can        
       leverage this information to improve Zero-DCE denoising model.By incorporating these reference loss functions into our training process, our model learned to produce denoised images that closely resemble
       the high quality references. This approach will often lead to higher PSNR scores compared to models trained solely on low-light input images without reference supervision.
-    - PSNR Values 
-      -TRAIN = 17.39
-      -TEST/VAL = 19.50
-      -PAPER = 16.57     
+    - PSNR Values    TRAIN = 17.39      TEST/VAL = 19.50       PAPER = 16.57     
 
   -UNet
     -The architecture is called U-Net due to its U-shaped structure, which consists of a contracting path (encoder) and an expansive path (decoder).U-Net’s architecture, with its ability to capture both local and      global features through its contracting and expansive paths, makes it highly suitable for low-light image denoising tasks, providing clear and high-quality images.
-    - PSNR Values 
-      -TRAIN = 17.31
-      -TEST/VAL = 19.13
-      -PAPER = 28.88
+    - PSNR Values    TRAIN = 17.31      TEST/VAL = 19.13       PAPER = 28.88
 * LOL-DATASET dataset📊 : https://www.kaggle.com/datasets/soumikrakshit/lol-dataset
 * Dataset Description:
 - The LOL dataset is composed of  low-light and normal-light image pairs. The low-light images contain noise produced during the photo capture process. Most of the images are indoor scenes. All the images have a resolution of 400×600. The dataset was introduced in the paper Deep Retinex Decomposition for Low-Light Enhancement.
