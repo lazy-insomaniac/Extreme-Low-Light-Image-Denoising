@@ -39,7 +39,7 @@ This study primarily focuses on implementing UNet and an  improved version of Ze
   - Test set: 15 images
 
 # Installation 🔧
-  - Requiremnts:
+  - Requirements:
     - Python 
     - Torch 
     - TorchVision
@@ -51,6 +51,11 @@ This study primarily focuses on implementing UNet and an  improved version of Ze
     - Optuna
     - VGG 19
     - PIL
+
+# Setup ⚙️
+  - pip install tensorflow
+  - pip install torch torchvision
+  - pip install opencv-python
 
 # Documentation 📑
  - HLD: Project_Report: [https://drive.google.com/file/d/1Ov7xwG9VEw6F1JLK3MOKL8BC4GuCNCWu/view?usp=drive_link](https://drive.google.com/file/d/1Bg57Z38PaLd2TcANpoFvaHQpaugCrC6P/view?usp=drive_link)
