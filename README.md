@@ -5,7 +5,7 @@ The aim of the project was to denoise images taken in extreme low light conditio
 ![image](https://github.com/lazy-insomaniac/Extreme-Low-Light-Image-Denoising/assets/114395022/e5badc61-90ca-4bba-9112-ef6c09625917)
 # Description 📝
 Zero Reference Deep Curve Estimation and Learning to see in the Dark Papers are implemented through the use of DCE Net and UNet. A modified version of Zero DCE is implemented called Partial-DCE.
-The main file for my code are in there respective folders you just have to run the file with your images in 'test/low/' and you will get output images in 'test
+The main file for my code are in there respective folders you just have to run the file with your images in 'test/low/' and you will get output images in 'test/predicted/'
 This study primarily focuses on implementing UNet and an  improved version of Zero DCE.
 -	Obtain high quality light enhanced images  
 -	Obtain output images with high PSNR ratio
