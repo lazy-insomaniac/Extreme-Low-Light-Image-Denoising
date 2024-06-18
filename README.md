@@ -14,7 +14,7 @@ This study primarily focuses on implementing UNet and an  improved version of Ze
 - For the UNet model , you will have to download the model file seperately and store it into UNet folder before running main.py
 
 # Download Links: 🔗
-* Unet model weights file: https://huggingface.co/facebook/deit-base-patch16-224 
+* Unet model weights file: https://drive.google.com/file/d/1Ov7xwG9VEw6F1JLK3MOKL8BC4GuCNCWu/view?usp=drive_link 
 * Model Description🤖:
   -Partial DCE
     -  A lightweight deep network, DCE-Net is used to estimate pixel-wise and high-order curves for dynamic range adjustment of a given 
@@ -59,4 +59,4 @@ This study primarily focuses on implementing UNet and an  improved version of Ze
     - PIL
 
 # Documentation 📑
- - HLD: Project_Report: [https://drive.google.com/file/d/1ZVVDhCKqqxmTkU2ox4ia3szZLt0allXy/view?usp=drive_link](https://drive.google.com/file/d/1Bg57Z38PaLd2TcANpoFvaHQpaugCrC6P/view?usp=drive_link)
+ - HLD: Project_Report: https://drive.google.com/file/d/1Ov7xwG9VEw6F1JLK3MOKL8BC4GuCNCWu/view?usp=drive_link
