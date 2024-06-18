@@ -454,7 +454,7 @@ def infer(original_image):
 
 
 low_light_dir = 'test/low/'
-high_light_dir = 'test/high/'
+high_light_dir = 'test/predicted/'
     
 os.makedirs(high_light_dir, exist_ok=True)
     
