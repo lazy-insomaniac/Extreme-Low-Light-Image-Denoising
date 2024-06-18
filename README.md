@@ -35,7 +35,7 @@ This study primarily focuses on implementing UNet and an  improved version of Ze
     - Image size: 600x400 pixels, color (RGB channels) png
   - Train / Dev (Validation) / Test Splits
   - Training set: 485(final training)  400(inital training)
-  - Validation
+  - Validation set: 0(final training)   85(intial training)
   - Test set: 15 images
 
 # Installation 🔧
