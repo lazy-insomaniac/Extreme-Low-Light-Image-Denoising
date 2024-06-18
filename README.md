@@ -3,7 +3,7 @@
 The aim of the project was to denoise images taken in extreme low light conditions. We often find ourselves with these low light images due to technical and environmental constraints. This results in loss of information. While there are many techniques to denoise such images, most of them are computationally expensive. Therefore, we can use Deep neural networks to perform the task.                                     # EXAMPLE 
 ![image](https://github.com/lazy-insomaniac/Extreme-Low-Light-Image-Denoising/assets/114395022/e5badc61-90ca-4bba-9112-ef6c09625917)
 # Description 📝
-Zero Reference Deep Curve Estimation and Seeing in the Dark Papers are implemented through the use of DCE Net and UNet. A modified version of Zero DCE is implemented called Partial-DCE.
+Zero Reference Deep Curve Estimation and Learning to see in the Dark Papers are implemented through the use of DCE Net and UNet. A modified version of Zero DCE is implemented called Partial-DCE.
 The main file for my code are in there respective folders you just have to run the file with your images in 'test/low/' and you will get output images in 'test
 This study primarily focuses on implementing UNet and an  improved version of Zero DCE.
 -	Obtain high quality light enhanced images  
