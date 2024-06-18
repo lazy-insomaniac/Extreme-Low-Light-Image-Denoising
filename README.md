@@ -10,7 +10,7 @@ This study primarily focuses on implementing UNet and an  improved version of Ze
 -	Obtain high quality light enhanced images  
 -	Obtain output images with high PSNR ratio
 
-# Note 
+# Note ⚠️
 - For the UNet model , you will have to download the model file seperately and store it into UNet folder before running main.py
 
 # Download Links: 🔗
@@ -60,3 +60,7 @@ This study primarily focuses on implementing UNet and an  improved version of Ze
 
 # Documentation 📑
  - HLD: Project_Report: [https://drive.google.com/file/d/1Ov7xwG9VEw6F1JLK3MOKL8BC4GuCNCWu/view?usp=drive_link](https://drive.google.com/file/d/1Bg57Z38PaLd2TcANpoFvaHQpaugCrC6P/view?usp=drive_link)
+
+# References ⚓
+ - Zero Reference Deep Curve Estimation for Low Light Enhancement : https://arxiv.org/pdf/2001.06826
+ - Learning to see in the Dark :  https://arxiv.org/pdf/1805.01934 
